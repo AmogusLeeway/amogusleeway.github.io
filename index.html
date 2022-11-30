@@ -1,13 +1,42 @@
 <!DOCTYPE html>
 <html>
-<title>e</title>
- <link rel="shortcut icon" type="image/ico" href="favicon.ico"/>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link
+  href="https://unpkg.com/video.js@7/dist/video-js.min.css"
+  rel="stylesheet"
+  />
 </head>
+
 <body>
-
- 
- 
-<h1>pi</h1>
-
+  Hello world
+  <div class="container">
+    <form action="" class="search">
+      <input type="text" placeholder="search anything" name="q">
+      <button type="submit">SUBMIT</button>
+    </form>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/video.js/8.0.2/video.min.js"></script>
+<script src="script.js"></script>
+<script src="https://vjs.zencdn.net/7.20.3/video.min.js"></script>
+  <video
+    id="my-video"
+    class="video-js myvideo"
+    preload="auto"
+    controls="true"
+    width="800"
+    height="600"
+    loop=true
+    autoplay=true
+    data-setup="{}"
+  >
+    <source src="pigeon.mp4" type="video/mp4" />
+    Your browser doesnt support HTML5 videos. Please update your browser.
+  </video>
 </body>
+
 </html>
